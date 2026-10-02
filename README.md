@@ -21,15 +21,37 @@ Single HTML file. Runs in the browser with no build step, no server, no tracking
 - Not a pre-approval or a quote. A lender uses your full credit profile and exact figures
 - Not a guarantee of what you should borrow. The maximum is a ceiling, not a target
 
-## Use it
+## Use
 
 Open the hosted page: https://0xelitesystem.github.io/mortgage-affordability-calculator/
 
 Or download `index.html` and open it in any browser. It works offline.
 
+1. Enter your annual gross income and other monthly debt payments.
+2. Set the interest rate, term, down payment, property tax, home insurance, and HOA.
+3. Adjust the back-end DTI limit if your lender uses a different cap.
+4. Read the maximum home price and the monthly payment breakdown, with the front-end and back-end DTI checks.
+
+## Why this exists
+
+Lender calculators ask for contact details before they show a number, and most budget sites load trackers alongside your income figures. This is one HTML file that does the affordability math in your browser, with no tracking, no account, and nothing sent anywhere. MIT licensed, so you can read every line or fork it.
+
 ## Privacy
 
-Everything runs client-side. No analytics, no cookies, no network calls, no local storage.
+Everything runs client-side. No analytics, no cookies, no network calls, no local storage of anything you enter. The only thing the page writes to your browser is your light or dark theme choice, saved in localStorage under the key `theme` when you press the theme button, so the page opens in the same theme next time. Clear site data to remove it.
+
+## Run locally
+
+```
+git clone https://github.com/0xelitesystem/mortgage-affordability-calculator
+cd mortgage-affordability-calculator
+```
+
+Then open `index.html` in any browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
+
+## Build
+
+No build step. The whole tool is one file, `index.html`, with its CSS and JavaScript inline.
 
 ## Related
 
