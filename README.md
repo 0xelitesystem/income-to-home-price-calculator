@@ -56,7 +56,7 @@ No build step. The whole tool is one file, `index.html`, with its CSS and JavaSc
 ## Related
 
 - [loan-payoff-schedule-chart](https://github.com/0xelitesystem/loan-payoff-schedule-chart)
-- [debt-payoff-planner](https://github.com/0xelitesystem/debt-payoff-planner)
+- [snowball-vs-avalanche-planner](https://github.com/0xelitesystem/snowball-vs-avalanche-planner)
 - [net-worth-snapshot](https://github.com/0xelitesystem/net-worth-snapshot)
 
 ## More
