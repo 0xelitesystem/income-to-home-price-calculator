@@ -1,8 +1,8 @@
-# Mortgage Affordability Calculator
+# Income to Home Price Calculator
 
 > How much home your income supports, before a lender ever runs the numbers.
 
-**Live demo:** https://0xelitesystem.github.io/mortgage-affordability-calculator/
+**Live demo:** https://0xelitesystem.github.io/income-to-home-price-calculator/
 
 Not financial advice. This is an estimate from the numbers you enter, for learning and planning only.
 
@@ -23,7 +23,7 @@ Single HTML file. Runs in the browser with no build step, no server, no tracking
 
 ## Use
 
-Open the hosted page: https://0xelitesystem.github.io/mortgage-affordability-calculator/
+Open the hosted page: https://0xelitesystem.github.io/income-to-home-price-calculator/
 
 Or download `index.html` and open it in any browser. It works offline.
 
@@ -43,8 +43,8 @@ Everything runs client-side. No analytics, no cookies, no network calls, no loca
 ## Run locally
 
 ```
-git clone https://github.com/0xelitesystem/mortgage-affordability-calculator
-cd mortgage-affordability-calculator
+git clone https://github.com/0xelitesystem/income-to-home-price-calculator
+cd income-to-home-price-calculator
 ```
 
 Then open `index.html` in any browser. Or serve the folder with `python -m http.server` and visit http://localhost:8000.
