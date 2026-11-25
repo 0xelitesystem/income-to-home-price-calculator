@@ -55,7 +55,7 @@ No build step. The whole tool is one file, `index.html`, with its CSS and JavaSc
 
 ## Related
 
-- [loan-amortization-visualizer](https://github.com/0xelitesystem/loan-amortization-visualizer)
+- [loan-payoff-schedule-chart](https://github.com/0xelitesystem/loan-payoff-schedule-chart)
 - [debt-payoff-planner](https://github.com/0xelitesystem/debt-payoff-planner)
 - [net-worth-snapshot](https://github.com/0xelitesystem/net-worth-snapshot)
 
